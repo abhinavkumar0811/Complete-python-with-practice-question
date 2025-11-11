@@ -1,0 +1,38 @@
+Given a list of integers, return a new list with each element squared.
+
+Write a function to check if a string is a palindrome.
+
+Count occurrences of each character in a string.
+
+Given two numbers, swap them without using a temporary variable.
+
+Print the Fibonacci sequence up to n.
+
+Medium
+
+Given a list, return a list of all unique pairs whose sum is zero.
+
+Merge two sorted lists into one sorted list.
+
+Given a string, find the first non-repeating character.
+
+Implement your own map function (without using built-in).
+
+Given a matrix, print elements in spiral order.
+
+Hard
+
+Given a list of intervals, merge overlapping intervals.
+
+Given a graph (adjacency list), do DFS and BFS.
+
+Solve N-Queens for n.
+
+Given a string containing digits, return all possible letter combinations (like phone keypad).
+
+Given a large number in string form, add one (simulate big integer).
+
+Agar chaahe, main ek PDF banake aur bhi ~50 questions bhej sakta hun, with solutions. Chaalu karu woh?
+
+
+<!-- list comprihension -->
