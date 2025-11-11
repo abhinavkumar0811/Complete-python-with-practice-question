@@ -9,24 +9,65 @@ else:
 
 
 
-    # Q6. Simple Calculator
 
-    # Build a simple calculator using switch.
-    # Input: two numbers and an operator (+, -, *, /)
-    # Output: the result of the operation.
+# Q5. Grade Calculation
 
-    # Q7. Leap Year Check
+# Input marks (0–100) and print the grade using the following rules:
+# >=90: Grade A
+# >=75: Grade B
+# >=50: Grade C
+# <50: Fail
+# Use if-else-if ladder.
 
-    # Write a program to check if a given year is a leap year or not.
-    # Conditions:
+marks = int(input('Enter your marks for grade: '))
 
-    # Divisible by 4 → leap year
+if marks>= 90 and marks < 100:
+    print('Grade A')
+elif marks >= 75 and marks < 90:
+    print('Grade B')
+elif marks >= 50 and marks < 50:
+    print('grade C')
+elif marks < 50 and marks >= 0:
+    print('Fail')
+else:
+    print('please provide number in range')
 
-    # But if divisible by 100 → not a leap year
 
-    # Unless divisible by 400 → leap year again
 
-    # Use nested if.
+# Q6. Simple Calculator
+# Build a simple calculator using switch.
+# Input: two numbers and an operator (+, -, *, /)
+# Output: the result of the operation.
+
+print('Calculator')
+first_num = int(input('Enter first number: '))
+operation = input('enter operation: ')
+second_num = int(input('Enter send number: '))
+
+match operation:
+
+    case '+':
+       result = first_num + second_num
+       print(f'Addition of {first_num} and {second_num} is {result}')
+    #    break - fall through follow python so where condition match it will terminated
+    case '-':
+        result = first_num - second_num
+        print(f'Substraction of {first_num} and {second_num} is {result}')
+    case '*':
+        result = first_num * second_num
+        print(f'Multiplication of {first_num} and {second_num} is {result}')
+    case '/':
+        result = first_num / second_num 
+        print(f'Division of {first_num} and {second_num} is {result}')
+    case _: 
+        print('Invalid operation !')
+        
+
+
+
+
+
+
 
     # Q8. Character Type Checker
 
