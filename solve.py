@@ -1,7 +1,22 @@
-#  Q7. Leap Year Check
-# Write a program to check if a given year is a leap year or not.
-# Conditions:
-# Divisible by 4 → leap year
-# But if divisible by 100 → not a leap year
-# Unless divisible by 400 → leap year again
-# Use nested if.
+# Q8. Character Type Checker
+# Input a character and check whether it is:
+# An alphabet,    
+# A digit, or
+# A special character.
+# Use if-else-if.
+
+
+import random;
+charactor = input('Enter your charactor: ')
+
+digits = random.randint(0, 12);
+print(digits)
+
+if charactor == charactor.lower():
+    print('this is smallest alphabet')
+elif charactor == charactor.upper():
+    print('This charactor is capital charactor')
+elif charactor == charactor.isdigit():
+    print('This charactor is digit')
+else:
+    print('It is a alphabet charactor')

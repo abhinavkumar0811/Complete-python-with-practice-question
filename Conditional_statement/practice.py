@@ -68,6 +68,24 @@ match operation:
 
 
 
+#  Q7. Leap Year Check
+# Write a program to check if a given year is a leap year or not.
+# Conditions:
+# Divisible by 4 → leap year
+# But if divisible by 100 → not a leap year
+# Unless divisible by 400 → leap year again
+# Use nested if.
+
+
+year = int(input("Enter year: "))
+
+if year%4==0 and year%100 !=0 or year%400 ==0:
+    print(f'This year: {year} is a leap year')
+else:
+    print('This year is not a leap year')
+
+
+
 
     # Q8. Character Type Checker
 
