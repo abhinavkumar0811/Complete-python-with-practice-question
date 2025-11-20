@@ -6,17 +6,21 @@
 # Use if-else-if.
 
 
-import random;
-charactor = input('Enter your charactor: ')
+# charactor = input('Enter charactor: ')
 
-digits = random.randint(0, 12);
-print(digits)
+# if charactor.isalpha():
+#     print(f'This is alphabet charactors: {charactor} ')
+# elif charactor.isdigit():
+#     print(f'This charactor hold digit {charactor}')
+# else:
+#     print(f'This is special charactor {charactor}')
 
-if charactor == charactor.lower():
-    print('this is smallest alphabet')
-elif charactor == charactor.upper():
-    print('This charactor is capital charactor')
-elif charactor == charactor.isdigit():
-    print('This charactor is digit')
-else:
-    print('It is a alphabet charactor')
+
+def adharCard(name):
+    # process
+
+    print(f'hello {name} your adhar No is 345435656');
+
+
+
+adharCard("aditya")
