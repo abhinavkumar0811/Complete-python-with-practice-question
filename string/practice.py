@@ -247,6 +247,7 @@ if word.isprintable():
     print('True')
 else:
     print('false')
+    
 # 50. Check if string " " is whitespace.
 user = input()
 if ' ' in user:
