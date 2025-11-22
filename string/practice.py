@@ -250,6 +250,8 @@ else:
     
 # 50. Check if string " " is whitespace.
 user = input()
+print(user.isspace())   # return bool
+
 if ' ' in user:
     print('This word contain white space')
 else:
